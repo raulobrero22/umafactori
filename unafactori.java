@@ -2,6 +2,7 @@ package unafactori;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 public class unafactori {
 	public static long fact(long num) {
 		long fac = 1;
@@ -24,4 +25,13 @@ public class unafactori {
 			scanInput.close();
 		}
 		
+=======
+public static long fact(long num) {
+	if (num<=1) {
+	return 1;
+	} else {
+	return num*fact(num-1);
+	}
+	}
+>>>>>>> recursivo
 }
