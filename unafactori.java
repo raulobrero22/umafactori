@@ -18,4 +18,5 @@ public class unafactori {
 		System.out.println("El factorial de "+num+" es "+fac);
 		scanInput.close();
 		}
+		
 }
