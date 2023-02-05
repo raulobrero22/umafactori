@@ -1,0 +1,28 @@
+-Git clone url: Clonamos el repositorio en github en nuestro ordenador local
+-git commit -m"implementacion inicial": Guardamos el fichero .java con la descripción dada en el repositorio local
+-git commit -m"refactorizacion": Guardamos la actualizacion del fichero con su descripción en el repositorio local
+-git push: Enviamos los ficheros guardaos en el repositorio local al de gitHub
+-git branch recursivo: Creamos la rama recursiva 
+-git checkout recursivo: Cambiamos de la rama main a la recursiva
+-git commit -m"implementacion recursiva": Guardamos la actualización del fichero en la rama recursiva
+-git checkout master: Cambiamos a la rama master
+-git commit -m"correción número negativos": corregimos el error de número negativos y lomandamos al repositorio local
+-git push: Enviamos los cambios de la rama main que se encuentra en el repositorio local al repositorio de gitHub
+-git checkout recursivo
+-git commit -m"optimizacion": Almacenamos en el repositorio local el cambio
+-git checkout main
+git merge recursvio: Mezclamos las dos ramas en la rama main
+-git branch refaclo: Creamos la rama refaclo
+-git checkout refaclo
+-git commit -m"refactorizacion de metodo de entrada": Almacenamos los cambios en el repositorio local de la rama refaclo
+-git stash: Guardamos temporalmente los cambios que hemos echo en el código ya que no lo hemos terminado
+-git checkout master
+-git commit -m"cambio de loong a BigInteger": Alamcenamos los cambios de la rama main en el repositorio local
+-git checkout refaclo
+-git stash pop: Recuperamos el fichero con el código que habiamos guardado en el stash
+-git commit -m"refactorización de salida": ALmacenamos en el repositorio local los cambion en la rama refaclo
+-git checkout master
+-git merge refaclo: Mezclamos las dos ramas en la rama main
+-git commit -"mezcla de rama refaclo": Almacenamos los cambios de la rama main
+-git push: Enviamos los cambios en el repositorio local al repositorio en gitHub
+-git commit -m"adición de gistorial de linea de comandos": Almacenamos el nuevo fichero
